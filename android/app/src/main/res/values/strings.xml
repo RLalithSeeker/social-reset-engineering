@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Reset</string>
+    <string name="accessibility_service_description">Detects when a configured app is opened so Social Reset can show the selected intervention.</string>
+</resources>

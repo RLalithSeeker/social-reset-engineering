@@ -1,0 +1,27 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local databases and relay test output
+*.db
+*.log
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Android / Gradle generated files
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+
+# IDE and OS metadata
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
