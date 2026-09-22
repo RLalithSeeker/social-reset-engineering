@@ -112,7 +112,6 @@ The server stores: registered device identities, pairing state, short-lived sess
 gradle -p android :app:testDebugUnitTest        # Android unit suite
 gradle -p android :app:assembleDebug            # Debug APK
 python -m pytest backend -q                     # Backend suite
-.\verify.ps1                                    # Repo verification script
 ```
 
 ## Repo map

@@ -80,9 +80,6 @@ gradle -p android :app:assembleDebug
 
 # Backend suite
 python -m pytest backend -q
-
-# Repo checks
-.\verify.ps1
 ```
 
 The debug build points at the emulator host loopback

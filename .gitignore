@@ -45,3 +45,11 @@ demo/
 09_OPEN_SOURCE/
 10_DECISIONS/
 11_REFERENCE/
+
+# Internal working files (ours, never publish)
+AGENCY_STATE.md
+CLAUDE.md
+TASKS/
+IMPLEMENTATION_CHECKLIST.md
+SOURCES.md
+verify.ps1
