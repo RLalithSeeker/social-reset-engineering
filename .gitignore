@@ -25,3 +25,8 @@ android/local.properties
 .vscode/
 Thumbs.db
 .DS_Store
+
+# Local-only demo helpers (never publish)
+tools/record-demo.ps1
+docs/DEMO_SCRIPT.md
+demo/
