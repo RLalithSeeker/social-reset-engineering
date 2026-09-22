@@ -30,3 +30,18 @@ Thumbs.db
 tools/record-demo.ps1
 docs/DEMO_SCRIPT.md
 demo/
+
+# Internal working docs (ours, never publish)
+.claude/
+00_START_HERE/
+01_PRODUCT/
+02_ARCHITECTURE/
+03_ANDROID/
+04_SECURITY/
+05_BACKEND/
+06_AI/
+07_TESTING/
+08_HACKATHON/
+09_OPEN_SOURCE/
+10_DECISIONS/
+11_REFERENCE/

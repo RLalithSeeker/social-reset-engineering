@@ -67,8 +67,6 @@ session relay · pytest suite.
 |---|---|
 | `android/` | Native app (single `:app` module) |
 | `backend/` | Relay server |
-| `00_START_HERE/` | Master implementation prompt |
-| `01_PRODUCT` – `11_REFERENCE` | Spec, architecture, platform, security, backend, AI, testing, hackathon, open-source, decisions |
 | `docs/` | Overview, project description, handoff, traps |
 
 ## Getting started
@@ -102,5 +100,4 @@ pairing UX polish, release APK, and on-device failure-mode passes
 ## What it is not
 
 Not a medical diagnosis, not bypass-proof, and behavior varies across
-OEM skins and Android permission models. Scope and limits are recorded
-in `10_DECISIONS/` and `08_HACKATHON/00_IDEA_DECISION_BRIEF.md`.
+OEM skins and Android permission models.

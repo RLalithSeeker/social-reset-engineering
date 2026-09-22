@@ -93,7 +93,7 @@ The server stores: registered device identities, pairing state, short-lived sess
 
 ## Data model (Room / SQLModel)
 
-`BlockedApp`, `ScheduleRule`, `BehaviorEvent`, `TrustedPeer` (public key + fingerprint + revokedAt), `ResetSession`, `UnlockGrant` (full field list in `00_START_HERE/01_MASTER_IMPLEMENTATION_PROMPT.md`). Private key bytes are never stored in Room — they live only in Keystore.
+`BlockedApp`, `ScheduleRule`, `BehaviorEvent`, `TrustedPeer` (public key + fingerprint + revokedAt), `ResetSession`, `UnlockGrant` (see the Room entities under `android/app/src` and the SQLModel models under `backend/`). Private key bytes are never stored in Room — they live only in Keystore.
 
 ## Current status (2026-09-07)
 
@@ -117,4 +117,4 @@ python -m pytest backend -q                     # Backend suite
 
 ## Repo map
 
-`00_START_HERE` master prompt + agent rules · `01_PRODUCT` product spec · `02_ARCHITECTURE` system/modules/state machine · `03_ANDROID` platform notes · `04_SECURITY` crypto design · `05_BACKEND` relay spec · `06_AI` behavior layer · `07_TESTING` test plan · `08_HACKATHON` demo plan · `09_OPEN_SOURCE` · `10_DECISIONS` recorded deviations · `docs/` handoff + traps + this overview · `TASKS/` working handoffs.
+`android/` native app · `backend/` relay server · `docs/` overview, brief, handoff + traps.
